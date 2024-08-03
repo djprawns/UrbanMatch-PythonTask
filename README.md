@@ -53,3 +53,22 @@ Include a brief report explaining your approach and any assumptions made.
 - FastAPI
 - SQLAlchemy
 - SQLite
+
+
+### HOW TO RUN
+- Setup
+Setup by installing the requirements.txt by setting up a virtual env: - 
+```
+virtualenv task
+source task/bin/activate
+pip3 install requirements.txt
+```
+
+- to run just execute this command
+```
+python3 -m uvicorn main:app --reload
+```
+- tests can be run by executing: - 
+```
+python3 -m pytest
+```
